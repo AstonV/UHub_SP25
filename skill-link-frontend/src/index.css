@@ -1,0 +1,25 @@
+#root{
+    margin: 0;
+    padding: 0;
+}
+
+/* For the entire webpage or specific elements */
+::-webkit-scrollbar {
+    width: 8px; /* Scrollbar width */
+    height: 8px; /* Horizontal scrollbar height */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+    border-radius: 6px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-track {
+    background: #484848; /* Color of the track */
+    border-radius: 6px; /* Rounded corners for the track */
+}
+
+/* Hover effect on the scrollbar thumb */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
