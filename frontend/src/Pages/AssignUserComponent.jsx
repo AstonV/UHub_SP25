@@ -70,7 +70,7 @@ const AssignUserComponent = ({project}) => {
             </Flex>
             <Flex flexDir="column" borderRadius="md" boxShadow="md" gap={4} border="0.2px solid" p={4}>
                 <Heading as="h2" size="lg"
-                         textAlign="center"
+                            textAlign="center"
                 >Recommnended Users</Heading>
                 <Input placeholder="Search Users" onChange={(e) => searchSuggestions(e.target.value)}/>
 

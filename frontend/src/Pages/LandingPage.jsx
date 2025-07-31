@@ -152,7 +152,7 @@ const LandingPage = () => {
             */}
                     <Flex direction="column" align="center" justify="center" p={4}>
                         <Heading as="h1" size="4xl">Find Your Perfect Collaborator</Heading>
-                        <Text my={3} as="h4" size="xl">Uhub, Teamwork makes the dream work.</Text>
+                        <Text my={3} as="h4" size="xl">Uhub, Teamwork Makes The Dream Comes True.</Text>
                         <Flex direction="row" align="center" justify="center" p={4} gap={4}>
                             <Link to={'/register'}>
                                 <Button
@@ -251,15 +251,11 @@ const LandingPage = () => {
                 <Flex direction="column" align="center" justify="start" w="full" p={8} minH="50vh" bg={'gray.100'}
                     _dark={{ bg: 'gray.800' }}
                     maxW="90%" borderRadius="md" gap={2}>
-                    <Heading as="h1" size="md" >Our Support Team</Heading>
+                    <Heading as="h1" size="md" >Chat with Our Support Staff</Heading>
 
-                    <Text w={'60%'} fontSize="4xl" textAlign="center">
-                        Talk to Real People
-                    </Text>
                     <Text mb={2} w={'60%'} fontSize="lg" textAlign="center">
                         Amazing things happen when great minds come together. Meet the team behind {APP_NAME}. Our
-                        Support Team is always ready to assist you. Amazing things happen when great minds come together. Meet the team behind {APP_NAME}. Our
-                        Support Team is always ready to assist you.
+                        Support Team is ready to assist you. 
                     </Text>
                     <Flex direction="row" align="center" justify="center" w="full" gap={4}>
                         {teamMembers.map((member, index) => (
