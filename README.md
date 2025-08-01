@@ -43,7 +43,7 @@ Before proceeding with the installation, ensure you have the following installed
    ```sh
    npm start
    ```
-   - The server should be running on `http://localhost:5000`
+   - The server should be running on `http://localhost:5001`
    
    For development mode with automatic restarts, use:
    ```sh
@@ -74,7 +74,7 @@ Before proceeding with the installation, ensure you have the following installed
    ```sh
    npm run dev
    ```
-   - The frontend should be running on `http://localhost:5173`
+   - The frontend should be running on `http://localhost:5174`
 
 ---
 
